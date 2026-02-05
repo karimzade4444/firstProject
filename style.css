@@ -254,6 +254,32 @@ border-radius: 50px;
 .circlebox{
     padding-top: 50px;
 }
-
-
+.img1{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+   
+    
+}
+.bttext{
+    width: 700px;
+    font-size: 15px;
+}
+.btimg{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 50px;
+}
+.linetext{
+    margin-top: 50px;
+}
+.boxbody{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+.line01{
+    margin-top: 50px;
+}
 }
