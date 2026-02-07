@@ -1,0 +1,9 @@
+name: My first Action
+
+on: push
+
+jobs:
+  buid:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "GitHub Action работает!"
